@@ -91,7 +91,7 @@ def generateRefNegseq(topAdapter = "", \
 
 def getRefNegSeqs(inReadFile, inBarFile, inAdapterFile, outFile, ERRORMODELIST = [1, 2, 3], trueBarFile = 'trueBars.csv'):
     '''generate the negtive sequences.'''
-    inReads = GSFF(inReadFile)[0:5000]
+    inReads = GSFF(inReadFile)
     inBars = GSFF(inBarFile)
     inAdapters = GSFF(inAdapterFile)
     outRefReads = []
