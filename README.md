@@ -102,6 +102,9 @@ For "module/simulateNanoSigs/generatNoiseSignal.py", the specific parameters are
 ## License
 No license.
 
+## Cite
+Qi, J., Li, Z., Zhang, Yz. et al. TDFPS-Designer: an efficient toolkit for barcode design and selection in nanopore sequencing. Genome Biol 25, 285 (2024). https://doi.org/10.1186/s13059-024-03423-3
+
    
 
 
